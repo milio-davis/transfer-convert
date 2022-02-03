@@ -1,0 +1,20 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemonTest": "nodemon ownreceiver.js",
+    "conversionTest": "nodemon audio_converter.js"
+  },
+  "author": "Emiliano Graniero, ADSUM Technology",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "prompt-sync": "^4.2.0"
+  }
+}
